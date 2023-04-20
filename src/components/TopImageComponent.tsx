@@ -1,9 +1,14 @@
-import {Image} from 'native-base';
+import {Text} from 'native-base';
 
-const beTheHero = require('../../public/undraw_be_the_hero_ssr2.svg') as string;
+import React from 'react';
+import {View} from 'react-native';
 
 const TopImageComponent = () => {
-  return <Image source={{uri: beTheHero}} alt="Be the hero image" />;
+  return (
+    <View>
+      <Text>Be the hero</Text>
+    </View>
+  );
 };
 
 export default TopImageComponent;
