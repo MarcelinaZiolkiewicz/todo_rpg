@@ -16,7 +16,6 @@ const Login = ({navigation}: {navigation: any}) => {
     onSubmit: values => {
       const {password, email} = values;
 
-      console.log('values', values);
       handleLoginUser && handleLoginUser({email: email, password: password});
     },
   });
