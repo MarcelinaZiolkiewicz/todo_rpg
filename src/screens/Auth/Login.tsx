@@ -1,7 +1,7 @@
 import {View, StyleSheet} from 'react-native';
 import {Box, Button, Input, FormControl, WarningOutlineIcon} from 'native-base';
 import {useContext, useEffect} from 'react';
-import {AuthContext} from '../context/AuthContext';
+import {AuthContext} from '../../context/AuthContext';
 import {useFormik} from 'formik';
 
 const Login = ({navigation}: {navigation: any}) => {
